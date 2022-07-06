@@ -1,0 +1,61 @@
+html {
+    font-size: 14px;
+    color: white;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+        color: black;
+        color: white;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+    color: white;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #303D52;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+button {
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+nav {
+    background-color: rebeccapurple;
+}
+
+th {
+    color: white;
+}
+
+.box {
+    display: block;
+    border-width: 2px;
+    border-style: double;
+    border-color: gray;
+    padding-top: 7px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+#center {
+    text-align: center;
+    font-size: 30px;
+    text-decoration-style: double;
+    font-weight: 100;
+}

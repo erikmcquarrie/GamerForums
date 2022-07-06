@@ -1,0 +1,23 @@
+﻿@model GamerForums.Models.Post
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div>
+    <dl class="row">
+        <dd class = "col-sm-10" id= "center">
+            @Html.DisplayFor(model => model.jokeQuestion)
+        </dd>
+        <hr />
+        <div class = "box">
+            <dd class = "col-sm-10">
+                @Html.DisplayFor(model => model.jokeAnswer)
+            </dd>
+        </div>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
